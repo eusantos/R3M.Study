@@ -75,6 +75,6 @@ namespace DataStructure.Collections
         /// Sorts the list accordingly to the comparison function using the sortingAlgorithm algorithm
         /// </summary>
         /// <param name="sortingAlgorithm"></param>
-        void Sort(Func<T, T, int> func, ESortingAlgorithm sortingAlgorithm);
+        void Sort(Func<T, T, int> func, ESortingAlgorithm sortingAlgorithm);        
     }
 }
